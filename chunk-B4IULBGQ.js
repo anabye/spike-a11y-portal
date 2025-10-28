@@ -265,12 +265,7 @@ export class SamplePoWidgetLabsComponent implements OnInit {
 </po-modal>
 `),t()()(),n(15,"po-tab",8)(16,"div")(17,"label",6),e(18,"sample-po-widget-finance-dashboard/sample-po-widget-finance-dashboard.component.ts"),t(),n(19,"pre",9),e(20,`import { Component, ViewChild, inject } from '@angular/core';
 
-import {
-  PoModalComponent,
-  PoMultiselectOption,
-  PoNotificationService,
-  PoTableColumn
-} from '@po-ui/ng-components';
+import { PoModalComponent, PoMultiselectOption, PoNotificationService, PoTableColumn } from '@po-ui/ng-components';
 
 @Component({
   selector: 'sample-po-widget-finance-dashboard',
